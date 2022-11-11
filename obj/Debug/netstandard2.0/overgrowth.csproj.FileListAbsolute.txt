@@ -1,0 +1,10 @@
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.csproj.AssemblyReference.cache
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.AssemblyInfoInputs.cache
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.AssemblyInfo.cs
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.csproj.CoreCompileInputs.cache
+D:\VSMods\Overgrowth\bin\Debug\netstandard2.0\overgrowth.deps.json
+D:\VSMods\Overgrowth\bin\Debug\netstandard2.0\overgrowth.dll
+D:\VSMods\Overgrowth\bin\Debug\netstandard2.0\overgrowth.pdb
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.dll
+D:\VSMods\Overgrowth\obj\Debug\netstandard2.0\overgrowth.pdb

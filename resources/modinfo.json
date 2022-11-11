@@ -1,0 +1,8 @@
+{
+    "type": "code",
+    "modid": "overgrowth",
+    "name": "Overgrowth",
+    "authors": ["gabb", "CATASTEROID" ],
+    "description": "A library of useful plant code",
+    "version": "1.0.0"
+}
