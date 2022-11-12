@@ -45,11 +45,14 @@ namespace overgrowth
                 {
                     beogbush.Prune();
 
-                    clipping = new ItemStack(api.World.GetItem(AssetLocation.Create("overgrowth:clipping-" + this.Variant["type"] + "-green")), 1);
-
-                    if (byPlayer?.InventoryManager.TryGiveItemstack(clipping) == false)
+                    if(world.BlockAccessor.GetBlock(blockSel.Position).Variant["state"] == "flowering")
                     {
-                        world.SpawnItemEntity(clipping, byPlayer.Entity.SidedPos.XYZ);
+                        clipping = new ItemStack(api.World.GetItem(AssetLocation.Create("overgrowth:clipping-" + this.Variant["type"] + "-green")), 1);
+
+                        if (byPlayer?.InventoryManager.TryGiveItemstack(clipping) == false)
+                        {
+                            world.SpawnItemEntity(clipping, byPlayer.Entity.SidedPos.XYZ);
+                        }
                     }
 
                     world.PlaySoundAt(harvestingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
